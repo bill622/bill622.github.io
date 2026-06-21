@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'bill';
-    src: url('../webfont/bill.svg?67207993#bill') format('svg');
+    docs: url('../webfont/bill.svg?67207993#bill') format('svg');
   }
 }
 */

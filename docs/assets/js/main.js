@@ -213,7 +213,7 @@
 			(function() {
 
 				// Based on code by @miorel + @pieterv of Facebook (thanks guys :)
-				// github.com/facebook/fixed-data-table/blob/master/src/vendor_upstream/dom/normalizeWheel.js
+				// github.com/facebook/fixed-data-table/blob/master/docs/vendor_upstream/dom/normalizeWheel.js
 					var normalizeWheel = function(event) {
 
 						var	pixelStep = 10,
