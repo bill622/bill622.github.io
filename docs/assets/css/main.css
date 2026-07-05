@@ -628,7 +628,7 @@ input, select, textarea {
 
 /* Header */
 
-	#footer {
+	#footer, footer {
 		width: 100%;
 		padding: 1.5em;
 		display: -moz-flex;
@@ -641,6 +641,10 @@ input, select, textarea {
 		justify-content: space-between;
 		position: relative;
 		z-index: 10002;
+	}
+
+	footer {
+		background-color: #403937;
 	}
 
 		#footer > section:first-child {
@@ -755,7 +759,7 @@ input, select, textarea {
 		}
 
 		.poptrox-popup .caption {
-			position: absolute;
+			/*position: absolute;
 			bottom: 0;
 			left: 0;
 			background: #1a1f2c;
@@ -765,7 +769,8 @@ input, select, textarea {
 			line-height: 75px;
 			text-align: center;
 			font-size: 1.25em;
-			color: #fff;
+			color: #fff;*/
+			display: none !important;
 		}
 
 		.poptrox-popup .nav-next, .poptrox-popup .nav-previous {
